@@ -1,0 +1,19 @@
+{
+  "name": "hopfield-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "prepare-test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "rm -rf test result_test && mkdir test result_test && node prepare-test.js && node hopfield.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^3.16.4",
+    "pajk-lwip": "^0.2.0"
+  }
+}
